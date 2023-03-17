@@ -1,3 +1,6 @@
+'''
+When the number of rabbits is less than 100, double the number and add the number of generations until the number of rabbits is greater than one hundred
+'''
 x = 2 # the number of ducks in first generation
 y = 1 # the first generation
 while x < 100: #When the total number of ducks is less than 100
