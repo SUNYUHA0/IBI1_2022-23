@@ -1,0 +1,7 @@
+The guidance provides concise instructions, enabling us to independently address and resolve issues.
+
+During the process, I encountered two challenges:
+
+1. In China, VPN is required to access Github. However, I lack knowledge on utilizing VPN in server command line mode. Consequently, I completed the majority of tasks on my local machine instead of the ZJE server.
+
+2. While attempting to push local files to Github, I unintentionally neglected to rename the branch. Specifically, my local branch was labeled as "main," and thus, the correct command should have been "git push origin main."
