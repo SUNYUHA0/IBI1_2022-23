@@ -16,9 +16,9 @@ def childnodes(child_id):
 
 
 data = {'id': [], 'name': [], 'definition': [], 'childNodes': []}
-dom = xml.dom.minidom.parse("go_obo.xml")  # Parse the XML file into a DOM document object.
-root = dom.documentElement  # Get the root element of the document
-terms = root.getElementsByTagName("term")  # Take out the list of "term"
+DOMTree = xml.dom.minidom.parse("go_obo.xml")  # Parse the XML file into a DOM document object.
+collection = DOMTree.documentElement  # Get the root element of the document
+terms = collection.getElementsByTagName("term")  # Take out the list of "term"
 for term in terms:
     id_node = term.getElementsByTagName("id")[0]
     name_node = term.getElementsByTagName("name")[0]
