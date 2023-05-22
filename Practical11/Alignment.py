@@ -46,16 +46,3 @@ def output(fname1, fname2):
 print(output('ACE2_cat.fa', 'ACE2_human.fa') + '\n' + 'scores =' + ' ' + str(scores(cat, human)) + '\n' + 'percentage =' + ' ' + str(percentage(cat, human)/len(cat)))
 print(output('ACE2_cat.fa', 'ACE2_mouse.fa') + '\n' + 'scores =' + ' ' + str(scores(cat, mouse)) + '\n' + 'percentage =' + ' ' + str(percentage(cat, mouse)/len(cat)))
 print(output('ACE2_mouse.fa', 'ACE2_human.fa') + '\n' + 'scores =' + ' ' + str(scores(mouse, human)) + '\n' + 'percentage =' + ' ' + str(percentage(mouse, human)/len(human)))
-
-'''
-The differences in amino acid sequences between cats and mice were minimal.
-1. a high score means that there are many substitutions between the two sequences, suggesting that they diverged over a long period of evolutionary time and may only share a relatively distant common ancestor. 
-2. the proteins may have different functions. There are many substitutions, many of which are non-conserved, and these sequences may have diverged to the extent that their structures and functions are completely different. They may share some small conserved regions but, in general, play different roles. 
-3. Some positions are conserved, indicating evolutionary constraints. In order to score positively, there must be some conserved or semi-conserved substitutions and conserved regions. These positions may encode functionally or structurally important sites that remain similar even if the sequence diverges in other ways.
-'''
-
-
-
-
-
-
