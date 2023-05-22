@@ -1,0 +1,7 @@
+Question: How have new cases and total cases developed over time in the UK?
+
+Line number: 138-149
+
+Answer:Both total and new cases were initially zero, and after around February 2020 total cases began to rise consistently, with new cases rising, then falling and finally rising in an obscure pattern.
+
+Discussion: The rising number of total cases may be due to the infectious and pathogenic nature of the new coronavirus, for which doctors have no treatment at the moment. The lack of a larger pattern of new cases may be due to the political unrest in Afghanistan, with changing policies leading to a rapidly changing level of exposure of the population.
