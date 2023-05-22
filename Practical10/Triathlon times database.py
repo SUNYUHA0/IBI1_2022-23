@@ -20,3 +20,4 @@ run_time = '40'  # Enter the time in minutes
 total_time = str(int(swim_time) + int(cycle_time) + int(run_time))
 triathlon1 = triathlon(first_name, last_name, location, swim_time, cycle_time, run_time, total_time)
 print(triathlon1.first_name, triathlon1.last_name, triathlon1.location, triathlon1.swim_time + 'min', triathlon1.cycle_time + 'min', triathlon1.run_time + 'min', triathlon1.total_time + 'min')
+  # The output is Peter Parker Queens 60min 50min 40min 150min.
