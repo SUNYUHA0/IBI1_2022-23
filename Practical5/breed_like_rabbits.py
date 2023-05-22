@@ -3,7 +3,7 @@ When the number of rabbits is less than 100, double the number and add the numbe
 '''
 x = 2 # the number of rabbits in first generation
 y = 1 # the first generation
-while x < 100: #When the total number of rabbits is less than 100
+while x < 100: # When the total number of rabbits is less than 100
  y += 1 # the number of generation plus 1
  x = 2*x # Double the number of ducks
 if x > 100:When the total number of rabbits is greater than 100
