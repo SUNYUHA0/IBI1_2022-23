@@ -1,0 +1,21 @@
+Cat and huamn:
+Alignment scores = 3717.0
+Identical percentage = 0.8521739130434782
+
+Cat and mouse
+Alignment scores = 3592.0
+Identical percentage = 0.8173913043478261
+
+Mouse and human
+Alignment scores = 3579.0
+Identical percentage = 0.8211180124223603
+
+Interpretation:
+The alignment score and identical percentage of human and cat are both the biggest. 
+So cat and human are most closely related. 
+Based on the results, cat and human are more likely to have the same ancestor than human and mouse, mouse and cat.
+Cats and humans are more closely related and have similar evolutionary paths.
+
+More detailedly, the provided sequences represent the ACE2 protein in humans, cats, and mice. ACE2, also known as angiotensin-converting enzyme 2, is a crucial protein involved in the regulation of blood pressure and fluid balance in the body through the renin-angiotensin system. Analyzing these sequences allows us to assess the similarities and differences among the ACE2 proteins across these species.
+The comparison results reveal that the ACE2 protein sequences in humans and cats exhibit the highest level of similarity, as indicated by a score of 3717 and an identical amino acid percentage of 85.22%. On the other hand, the comparisons between human and mouse, as well as between mouse and cat, show slightly lower scores and percentages of identical amino acids. Specifically, the human-mouse comparison yielded a score of 3592 and a 81.74% identity, while the mouse-cat comparison resulted in a score of 3579 with an 82.11% identity. These values suggest a lesser degree of similarity between these pairs of sequences compared to the human-cat pair.
+It is worth noting that ACE2 is a conserved protein, implying a high degree of similarity across all three sequences.
